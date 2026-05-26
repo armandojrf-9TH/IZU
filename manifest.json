@@ -1,6 +1,6 @@
 {
-  "name": "StudyTrack",
-  "short_name": "StudyTrack",
+  "name": "I.Z.U",
+  "short_name": "I.Z.U",
   "description": "Assignment, event, and study session tracker",
   "start_url": "./index.html",
   "display": "standalone",
