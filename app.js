@@ -28,7 +28,7 @@ function save() {
   };
   // Use IndexedDB via simple wrapper for persistence
   try {
-    const req = indexedDB.open('studytrack', 1);
+    const req = indexedDB.open('I.Z.U', 1);
     req.onupgradeneeded = (e) => {
       const db = e.target.result;
       if (!db.objectStoreNames.contains('data')) {
@@ -46,7 +46,7 @@ function save() {
 function load() {
   return new Promise((resolve) => {
     try {
-      const req = indexedDB.open('studytrack', 1);
+      const req = indexedDB.open('I.Z.U', 1);
       req.onupgradeneeded = (e) => {
         const db = e.target.result;
         if (!db.objectStoreNames.contains('data')) {
