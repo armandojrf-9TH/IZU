@@ -1,4 +1,4 @@
-# StudyTrack
+# I.Z.U
 
 A clean, dark-mode assignment and study tracker built as an installable web app — works on your laptop and phone.
 
